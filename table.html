@@ -1,0 +1,111 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        .tb1{
+            width: 400px;
+            border: 2px solid rebeccapurple;
+            border-collapse: collapse;
+        }
+        td,th {
+            border:1px solid rgb(8, 8, 8);
+        }
+        thead{
+            background-color: darksalmon;
+            color: black;
+        }
+        tbody{
+            background-color: gainsboro;
+            color: red;
+            text-align: center;
+        }
+        tbody tr:nth-child(2n){background-color: yellow;}
+        tbody tr:nth-child(2n+1){background-color: silver;}
+        tbody tr:hover{background-color: brown; color: cadetblue;}
+        h2{font-family: 標楷體;color: dodgerblue;}
+        tfoot tr:nth-child{color: rgb(89, 177, 177);}
+    </style>
+</head>
+<body>
+    <h2>div裡的文字垂直對齊</h2>
+    <div style="border:1px solid red; width:200px; height:100px; line-height:100px;">高度有指定</div>
+    <hr>
+    <div style="border:1px solid green; width:200px; padding-top:50px; padding-bottom:50px;">高度未指定</div>
+    <table class="tb1">
+        <caption><h2>表格練習</h2></caption>
+        <thead>
+        <tr>
+        <th>年紀</th>
+        <th rowspan="2">年紀</th>
+        <th>年紀</th>
+        <th>年紀</th>
+        <th colspan="2">年紀</th>
+        <!-- <th>年紀</th> -->
+        </thead>
+        </tr>
+        <tbody>
+        <tr>
+            <th>年紀</th><th>年紀</th><th>年紀</th><th>年紀</th><th>年紀</th><th>年紀</th>
+            </tr>
+        <tr>
+            <td>1</td>
+            <td>11</td>
+            <td>11</td>
+            <td>22</td>
+            <td>11</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>21</td>
+            <td>32</td>
+            <td>54</td>
+            <td>22</td>
+            <td>11</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>54</td>
+            <td>54</td>
+            <td>22</td>
+            <td>11</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>54</td>
+            <td>54</td>
+            <td>22</td>
+            <td>11</td>
+            <td>11</td>
+        </tr>
+        <tr>
+            <td>45</td>
+            <td>54</td>
+            <td>54</td>
+            <td>22</td>
+            <td>11</td>
+            <td>11</td>
+        </tr>
+    </tbody>
+    <tfoot>
+        <tr>
+            <td>45</td>
+            <td>54</td>
+            <td>54</td>
+            <td>22</td>
+            <td>11</td>
+            <td>11</td>
+        </tr>
+    </tfoot>    
+ 
+       
+        
+    </table>
+    
+</body>
+</html>

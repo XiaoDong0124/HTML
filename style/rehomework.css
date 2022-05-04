@@ -1,0 +1,51 @@
+*{
+    margin:0 ;
+    padding:0 ;
+
+}
+img{
+    width:500px;
+    float:left;
+    margin-bottom:10px ;
+}
+.fig1{
+    border:2px solid purple;
+    float:left;
+    margin:20px;
+    padding:20px 30px 20px 30px;
+    background-color: aliceblue;
+}
+.fig2{
+    border:2px solid purple;
+    float:right;
+    margin:20px;
+    padding:20px 30px 20px 30px;
+    background-color: rgb(248, 235, 243);
+
+}
+div{
+    clear:both;
+    margin:100px; 
+    padding: 20px 20px 20px 20px;
+    background-color: rgb(246, 240, 231);
+    border: 2px solid rgb(226, 184, 226);
+    /* 壓縮div邊框使其到中間 */
+}
+h1{
+    padding:30px 0 30px 0 ;
+    margin:20px ;
+    /* 對齊圖片 */
+}
+p{
+    text-align:justify;       /*justify 文字左右對齊*/
+    text-indent:32px;             
+}
+.p2{
+    padding: 40px 30px 40px 30px;
+    font-size:x-large;
+    /* 對齊圖片 */
+}
+.in{
+    list-style-position:inside;
+    list-style-type:upper-roman;    
+}

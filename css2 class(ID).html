@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css使用--自訂樣式(ID)</title>
+    <!-- 語法<style> selector{屬性:屬性值}<style>} -->
+    <style>
+        #theH1{
+            color:red
+        }
+
+
+    </style>
+</head>
+<body>
+    <h1 id="theH1">apple</h1>
+    <h1 id="theH1">banana</h1>
+    <script>
+        document.getElementById("theH1").style.color="blue"
+    </script>
+</html>

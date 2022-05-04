@@ -1,0 +1,78 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Css使用--自訂樣式(class)</title>
+    <link rel="stylesheet" href="html.css">
+    <link rel="stylesheet" href="styles/font.css">
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Satisfy&family=Yantramanav:wght@100&display=swap" rel="stylesheet"> -->
+    <!-- 語法<style> selector{屬性:屬性值}<style>} -->
+    <style>
+        /* @font-face{
+            src:url(fonts/JustOldFashion.ttf);
+            font-family:font1;
+        }
+        .font1{
+            font-family:font1
+        }
+        @font-face{
+            src:url(fonts/SCRIPTIN.ttf);
+            font-family:font2 ;
+        }
+        .font2{
+            font-family:font2;
+        }
+        .p1{
+            font-family: 'Satisfy', cursive;   
+
+        } */
+
+
+        /* .h1-1{
+            color:aqua;
+            font-style:italic;
+        }
+        .h2-1{
+            color: blueviolet;
+            font-size:200%;
+        }
+        
+        .col2{
+            color:gray
+        }
+        .col1{
+            color:brown
+        }
+        .size1{
+            font-size:3em;
+        }
+        .under1{
+            text-decoration:underline;
+        }
+        #col2H1{
+            color:blueviolet;
+        }
+        .colH1{
+            color: blue;
+        }
+        .sty1{
+            font-style:italic;
+        } */
+
+/* selector 後面的屬性會蓋掉前面的屬性，跟給予變數的順序無相關 */
+
+
+    </style>
+</head>
+<body>
+    <!-- inline > ID > class -->
+    <h1 class="colH1" id="col2H1">apple</h1>
+    <h1 class="font1">banana</h1>
+    <h2 class="font2">orange</h2> 
+    <h3 class="col2 size1 under1">panda</h3>
+    <h4 class="col1 size1 sty1">monkey</h4>  
+    <p class="p1">this is paragraph</p>
+</body>
+</html>

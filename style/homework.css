@@ -1,0 +1,47 @@
+*{
+    margin:0 ;
+    padding:0 ;
+
+}
+img{
+    width:500px;
+    border:3px solid #ffe4c4;
+    padding:30px 20px 30px 20px;
+    margin: 20px;
+    margin-bottom:-50px ;
+    
+}
+.img1{
+    float:left;
+    
+}
+div{
+    clear:both;
+    margin:100px; 
+    /* 壓縮div邊框使其到中間 */
+}
+h1{
+    margin:20px ;
+    /* 對齊圖片 */
+}
+.p1{
+    clear:both;
+    font-size:medium;
+    margin-left: 20px;
+    color: #0008b0;
+   }
+.p2{
+    padding: 30px 20px 30px 20px;
+    font-size:x-large;
+    /* 對齊圖片 */
+}
+.in{
+    list-style-position:inside;
+    list-style-type:upper-roman;
+    
+}
+.out{
+    background-color: brown;
+    list-style-position:outside;
+    list-style-image:url("../img/badminton.png")
+}

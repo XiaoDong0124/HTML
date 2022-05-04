@@ -1,0 +1,38 @@
+.h1-1{
+    color:aqua;
+    font-style:italic;
+}
+.h2-1{
+    color: rgb(212, 206, 218);
+    font-size:300%;
+}
+
+.col2{
+    color:gray
+}
+.col1{
+    color:brown
+}
+.size1{
+    font-size:3em;
+}
+.under1{
+    text-decoration:underline;
+}
+#col2H1{
+    color:yellowgreen;
+}
+.colH1{
+    color: blue;
+}
+.sty1{
+    font-style:unset;
+}
+p{
+    font-size:xx-large;
+    color:aqua
+}
+
+/* selector 後面的屬性會蓋掉前面的屬性，跟給予變數的順序無相關 */
+
+
